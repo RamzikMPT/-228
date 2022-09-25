@@ -17,7 +17,7 @@ namespace какулька_1
             {
                 if (firstopen)
                 {
-                    Console.WriteLine("Возмоные операции: \n 1.сложение \n 2.вычесть  \n 3.умножить \n 4.деление \n 5.степень \n 6.квадратный корень \n 7.1 процент \n 8.факториал \n 9.выход    ");
+                    Console.WriteLine("Возможные операции: \n 1.сложение \n 2.вычесть  \n 3.умножить \n 4.деление \n 5.степень \n 6.квадратный корень \n 7.1 процент \n 8.факториал \n 9.выход    ");
                     Console.Write("введите номер операции: ");
                     firstopen = false;
                     
@@ -104,7 +104,7 @@ namespace какулька_1
                         Console.WriteLine("Введите  число: ");
                         a = float.Parse(Console.ReadLine());
                         float anw = 1;
-                        for (int i = 1; i < 10; i++)
+                        for (int i = 1; i <= 10; i++)
                             anw *= i;
                    
                         Console.WriteLine("результат факториала: " + (anw));
